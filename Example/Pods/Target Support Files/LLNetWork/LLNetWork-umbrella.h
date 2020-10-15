@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "LLCacheManager.h"
+#import "LLNetWork.h"
 
 FOUNDATION_EXPORT double LLNetWorkVersionNumber;
 FOUNDATION_EXPORT const unsigned char LLNetWorkVersionString[];

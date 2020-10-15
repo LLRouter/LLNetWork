@@ -1,7 +1,7 @@
 {
   "name": "LLNetWork",
-  "version": "0.1.0",
-  "summary": "A short description of LLNetWork.",
+  "version": "0.0.1",
+  "summary": "Base NetWork on AFNetWorking",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/liulaisheng/LLNetWork",
   "license": {
@@ -13,10 +13,19 @@
   },
   "source": {
     "git": "https://github.com/liulaisheng/LLNetWork.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "LLNetWork/Classes/**/*"
+  "source_files": "LLNetWork/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 4.0.0"
+    ],
+    "YYCache": [
+
+    ]
+  }
 }

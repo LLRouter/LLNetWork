@@ -1,16 +1,41 @@
 PODS:
-  - LLNetWork (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - LLNetWork (0.0.1):
+    - AFNetworking (~> 4.0.0)
+    - YYCache
+  - YYCache (1.0.4)
 
 DEPENDENCIES:
   - LLNetWork (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - YYCache
 
 EXTERNAL SOURCES:
   LLNetWork:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LLNetWork: 38b6c148cd48ba33fe024717be57c34e038237b8
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  LLNetWork: 273eab0fdcb9c84def6995530e56457982282776
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 45cad662ce2b2937d95c88ff88b521018e683ce3
+PODFILE CHECKSUM: c862379d5c7e203230b24cd4572c32ae46610a09
 
 COCOAPODS: 1.9.3
