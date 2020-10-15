@@ -1,0 +1,22 @@
+{
+  "name": "LLNetWork",
+  "version": "0.1.0",
+  "summary": "A short description of LLNetWork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liulaisheng/LLNetWork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liulaisheng": "1787543142qq.com"
+  },
+  "source": {
+    "git": "https://github.com/liulaisheng/LLNetWork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LLNetWork/Classes/**/*"
+}

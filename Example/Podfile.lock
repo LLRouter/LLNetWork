@@ -1,0 +1,16 @@
+PODS:
+  - LLNetWork (0.1.0)
+
+DEPENDENCIES:
+  - LLNetWork (from `../`)
+
+EXTERNAL SOURCES:
+  LLNetWork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLNetWork: 38b6c148cd48ba33fe024717be57c34e038237b8
+
+PODFILE CHECKSUM: 45cad662ce2b2937d95c88ff88b521018e683ce3
+
+COCOAPODS: 1.9.3
