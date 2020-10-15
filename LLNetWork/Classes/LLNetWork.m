@@ -75,7 +75,7 @@ static BOOL _openLog;
                 responseCache:(LLRequestCache)responseCache
                       success:(LLRequestSuccess)success
                       failure:(LLRequestFailed)failure{
-    if (!URL || ![NSURL URLWithString:URL]) {
+    if (!URL || URL.length <= 0 || ![NSURL URLWithString:URL]) {
         LLLog(@"请求地址错误");
         return nil;
     }
