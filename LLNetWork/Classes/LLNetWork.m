@@ -298,4 +298,12 @@ static BOOL _openLog;
 + (void)openNetworkActivityIndicator:(BOOL)open{
      [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:open];
 }
++ (void)setHeader:(NSDictionary *)headerDictionary{
+    if (headerDictionary != nil) {
+        for (NSString *httpHeaderField in headerDictionary.allKeys) {
+            NSString *value = headerDictionary[httpHeaderField];
+            [_sessionManager.requestSerializer setValue:value forHTTPHeaderField:httpHeaderField];
+        }
+    }
+}
 @end

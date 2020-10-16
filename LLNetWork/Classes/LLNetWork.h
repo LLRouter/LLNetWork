@@ -170,6 +170,12 @@ typedef void(^LLNetworkStatus)(LLNetworkStatusType status);
  */
 + (void)openNetworkActivityIndicator:(BOOL)open;
 
+/**
+ *  添加请求头
+ *
+ *  @param headerDictionary kv请求头json
+ */
++ (void)setHeader:(NSDictionary *)headerDictionary;
 
 @end
 
